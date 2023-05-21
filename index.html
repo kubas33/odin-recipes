@@ -5,12 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>Odin - Polish Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <div><a href="recipes/babka.html"><img src="/images/babka-main.jpg" alt="babka"> <br>Polish Babka</a></div>
-    <div><a href="recipes/piernik.html"><img src="/images/piernik-main.jpg" alt="piernik"> <br>Polish Gingerbread (Piernik)</a></div>
-    <div><a href="recipes/pierogi.html"><img src="images/pierogi-main.jpg" alt="pierogi"> <br>Blueberry Dumplings (Pierogi)</a></div>
-    <div><a href="recipes/leczo.html"><img src="images/leczo-main.jpg" alt="leczo"><br> Polish Leczo</a></div>
+    <div class="container main-page">
+        <header>
+            <h1>Odin Recipes</h1>
+            <p>
+                <hr>
+            </p>
+        </header>
+        <div id="recipes-container">
+            <div>
+                <div class="dish"><a href="recipes/babka.html"><img src="/images/babka-main.jpg" alt="babka"> <br>Polish Babka</a></div>
+                <div class="dish"><a href="recipes/piernik.html"><img src="/images/piernik-main.jpg" alt="piernik"> <br>Polish Gingerbread (Piernik)</a></div>
+            </div>
+            <div>
+                <div class="dish"><a href="recipes/pierogi.html"><img src="images/pierogi-main.jpg" alt="pierogi"> <br>Blueberry Dumplings (Pierogi)</a></div>
+                <div class="dish"><a href="recipes/leczo.html"><img src="images/leczo-main.jpg" alt="leczo"><br> Polish Leczo</a></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
