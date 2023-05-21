@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
-    font-family: 'Gluten', cursive;;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     align-items: center;
@@ -34,9 +34,14 @@ h1 {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 40px;
-    width: 100%;
+    width: 80%;
     text-align: center;
+    font-family: 'Gluten';
+    font-size: 50px;
+}
+
+header h1 {
+    font-size: 70px;
 }
 
 .container {
@@ -55,17 +60,10 @@ h1 {
     text-align: justify;
     line-height: 1.5;
 }
-/*.instructions {
-    margin: 0 50px;
-    text-align: justify;
-}
-.ingredients {
-    margin: 0 50px;
-    text-align: justify;
-} */
 .dish {
     padding: 0 50px 30px 50px;
     text-align: center;
+    font-family: 'Gluten';
 }
 .dish a {
     color: rgb(41, 40, 40);
@@ -91,6 +89,14 @@ img.dish-prev {
 
 .ingredients ul, .instructions ol {
     list-style-position: inside;
+}
+.instructions li {
+    padding: 5 5px;
+}
+
+.instructions li::marker {
+    font-weight: bold;
+    padding-right: 5px;
 }
 
 #recipes-container {
